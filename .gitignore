@@ -1,0 +1,27 @@
+# This repository deliberately publishes only the research note and its build files.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/.github/
+!/.github/workflows/
+!/.github/workflows/pages.yml
+!/notebooks/
+!/scripts/
+!/docs/
+
+/notebooks/*
+!/notebooks/gmo_election_cycle_hypothesis_test.ipynb
+
+/scripts/*
+!/scripts/build_pages_site.py
+!/scripts/fetch_index_price_history.py
+
+/docs/*
+!/docs/index.html
+!/docs/assets/
+/docs/assets/*
+!/docs/assets/site.css
+
+# Local source data is downloaded for builds and is not committed.
+/data/
