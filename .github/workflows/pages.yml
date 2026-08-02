@@ -6,6 +6,7 @@ on:
     paths:
       - 'notebooks/**'
       - 'scripts/**'
+      - 'docs/index.html'
       - 'docs/assets/**'
       - 'requirements.txt'
       - '.github/workflows/pages.yml'
