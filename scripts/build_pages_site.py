@@ -28,7 +28,7 @@ def inject_site_chrome(html: str) -> str:
 <title>대통령 선거주기의 7개월, 정말 유난히 좋았나 | 가설과 로그</title>'''
     header = f'''<header class="site-header">
   <a class="brand" href="./">가설과 로그</a>
-  <p>데이터와 가설, 그리고 삶에 관한 관찰 기록</p>
+  <p>가설, 데이터, 삶</p>
   <nav aria-label="글 링크">
     <a href="{NOTEBOOK_URL}">원본 노트북</a>
     <a href="{REPOSITORY_URL}">GitHub</a>
