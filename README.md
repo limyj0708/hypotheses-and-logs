@@ -14,7 +14,7 @@
 
 ```powershell
 python -m pip install -r requirements.txt
-python scripts/fetch_index_price_history.py
+python scripts/fetch_index_price_history.py --end-date 2026-08-01
 python scripts/build_pages_site.py
 ```
 
@@ -23,6 +23,7 @@ python scripts/build_pages_site.py
 ## 데이터와 해석의 범위
 
 - 데이터는 Yahoo Finance chart API에서 받은 일별 **가격지수**입니다. 배당을 포함한 총수익률이나 물가 조정 수익률이 아닙니다.
+- 분석 기준일은 `2026-08-01`로 고정했습니다. 이후 가격 데이터가 추가되어도 이 글의 계산 결과에는 반영되지 않습니다.
 - GMO의 원문은 Global Financial Data의 실질 총수익률을 사용했습니다. 이 저장소는 공개 데이터로 방향과 통계적 차이를 독립적으로 재현한 것입니다.
 - 이 글은 투자 권유가 아닙니다. 과거의 패턴은 미래 수익을 보장하지 않습니다.
 
