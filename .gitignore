@@ -22,6 +22,10 @@
 !/docs/assets/
 /docs/assets/*
 !/docs/assets/site.css
+!/docs/notes/
+/docs/notes/*
+!/docs/notes/election-cycle/
+!/docs/notes/election-cycle/index.html
 
 # Local source data is downloaded for builds and is not committed.
 /data/

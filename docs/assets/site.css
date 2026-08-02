@@ -112,6 +112,48 @@ li { margin: 0.35rem 0; }
 
 .site-footer p { margin: 0 0 0.35rem; }
 
+.home {
+  width: min(100% - 40px, 900px);
+  margin: 0 auto;
+  padding: 64px 0 72px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.home h1 {
+  max-width: 680px;
+  margin: 0 0 16px;
+}
+
+.home-intro {
+  max-width: 660px;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.note-list { margin-top: 62px; }
+.note-list h2 { margin: 0 0 18px; padding: 0; border: 0; }
+
+.note-card {
+  display: block;
+  padding: 27px 28px;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+.note-card:hover { transform: translateY(-3px); background: var(--wash); }
+.note-card .note-meta { margin: 0 0 7px; color: var(--accent); font-size: 0.85rem; font-weight: 750; }
+.note-card h3 { margin: 0 0 9px; font-size: 1.4rem; }
+.note-card .note-summary { margin: 0; color: var(--muted); }
+
 @media (max-width: 640px) {
   body { font-size: 16px; line-height: 1.72; }
   .site-header, .site-footer, #notebook-container { width: min(100% - 28px, 900px); }
@@ -119,4 +161,6 @@ li { margin: 0.35rem 0; }
   .site-header nav { position: static; margin-top: 12px; }
   #notebook-container { padding-top: 8px; }
   h2 { margin-top: 50px; }
+  .home { width: min(100% - 28px, 900px); padding-top: 45px; }
+  .note-card { padding: 23px 21px; }
 }

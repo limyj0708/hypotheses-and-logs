@@ -6,7 +6,8 @@
 
 ## 읽기
 
-- 공개 글: `https://limyj0708.github.io/hypotheses-and-logs/`
+- 글 목록: `https://limyj0708.github.io/hypotheses-and-logs/`
+- 첫 번째 글: `https://limyj0708.github.io/hypotheses-and-logs/notes/election-cycle/`
 - 편집·재현용 노트북: [`notebooks/gmo_election_cycle_hypothesis_test.ipynb`](notebooks/gmo_election_cycle_hypothesis_test.ipynb)
 
 ## 재현 방법

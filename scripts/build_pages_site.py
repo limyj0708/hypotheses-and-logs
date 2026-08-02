@@ -14,8 +14,9 @@ from traitlets.config import Config
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOK = ROOT / "notebooks" / "gmo_election_cycle_hypothesis_test.ipynb"
-OUTPUT = ROOT / "docs" / "index.html"
-CSS_PATH = "assets/site.css"
+OUTPUT = ROOT / "docs" / "notes" / "election-cycle" / "index.html"
+CSS_PATH = "../../assets/site.css"
+HOME_URL = "../../"
 REPOSITORY_URL = "https://github.com/limyj0708/hypotheses-and-logs"
 NOTEBOOK_URL = f"{REPOSITORY_URL}/blob/main/notebooks/{NOTEBOOK.name}"
 
@@ -27,9 +28,10 @@ def inject_site_chrome(html: str) -> str:
 <link rel="stylesheet" href="{CSS_PATH}">
 <title>대통령 선거주기의 7개월, 정말 유난히 좋았나 | 가설과 로그</title>'''
     header = f'''<header class="site-header">
-  <a class="brand" href="./">가설과 로그</a>
+  <a class="brand" href="{HOME_URL}">가설과 로그</a>
   <p>가설, 데이터, 삶</p>
   <nav aria-label="글 링크">
+    <a href="{HOME_URL}">글 목록</a>
     <a href="{NOTEBOOK_URL}">원본 노트북</a>
     <a href="{REPOSITORY_URL}">GitHub</a>
   </nav>
