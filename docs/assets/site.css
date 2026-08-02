@@ -118,26 +118,7 @@ li { margin: 0.35rem 0; }
   padding: 64px 0 72px;
 }
 
-.eyebrow {
-  margin: 0 0 10px;
-  color: var(--accent);
-  font-size: 0.84rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-}
-
-.home h1 {
-  max-width: 680px;
-  margin: 0 0 16px;
-}
-
-.home-intro {
-  max-width: 660px;
-  color: var(--muted);
-  font-size: 1.08rem;
-}
-
-.note-list { margin-top: 62px; }
+.note-list { margin-top: 0; }
 .note-list h2 { margin: 0 0 18px; padding: 0; border: 0; }
 
 .note-card {
